@@ -1,9 +1,73 @@
+/* Основной - #757575 */
+/* Вторичный - #212121 */
+/* Белый - #ffffff */
+/* Прозрачный - rgba(255, 255, 255, 0.6 */
+/* Акцент -  #2196f3 */
+/* Вторичный цвет фона Герой - #2F303A */
+/* Вторичный цвет - #F5F4FA */
 
-.site-nav {
-    color: #212121;
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+	--primery-white-color: #ffffff;
 }
 
-.site-nav:hover,
-.site-nav:focus {
-    color: #2196F3;    
+body {
+	background-color: var(--primery-white-color);
+	color: var(--primary-text-color);
+}
+
+.list {
+	list-style: none;
+}
+
+.logo {
+	color: #000000;
+}
+.logo-accent {
+	color: var(--accent-color);
+}
+
+/* Site nav */
+.site-nav .link {
+	color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color);
+}
+
+.site-nav .link.current {
+	color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+	background-color: #2f303a;
+}
+
+.hero-title {
+	color: var(--primery-white-color);
+}
+
+.button {
+	color: var(--primery-white-color);
+	background-color: var(--accent-color);
+}
+
+/* Section */
+.section-title {
+	color: var(--title-text-color);
+}
+
+/* Features */
+.features .features-title {
+	color: var(--title-text-color);
+}
+
+/* Team */
+.team .team-title {
+	color: var(--title-text-color);
 }
