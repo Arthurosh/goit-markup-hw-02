@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <!-- <link href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
     <!-- Шапка сайта-->
     <header>
         <nav>
-            <a href="">WebStudio</a>
+            <a href="./index.html">WebStudio</a>
     
             <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
+                <li><a href="./index.html">Студия</a></li>
+                <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
     
             </ul>
@@ -30,79 +30,87 @@
 
     <!--Унікальний контент-->
     <main>
-        <section>
-            <h1>Перечень видов проектов</h1>
-            <button type="button">Все</button>
-            <button type="button">Веб-сайты</button>
-            <button type="button">Приложения</button>
-            <button type="button">Дизайн</button>
-            <button type="button">Маркетинг</button>
+    <!-- Фільтр -->
+        <section>  
+            <div>
+                <h1>Выбор категории</h1><!--приховати в сss-->
+                <button type="button">Все</button>
+                <button type="button">Веб-сайты</button>
+                <button type="button">Приложения</button>
+                <button type="button">Дизайн</button>
+                <button type="button">Маркетинг</button>
+            </div>
         </section>
 
+    <!-- Портфоліо -->
         <section>
-            <h2>Проекты</h2>
-            <ul>
-                <li>
-                    <img src="./images/project-1.jpg" alt="Технокряк" width="270">
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/Project-2.jpg" alt="Постер New Orlean vs Golden Star" width="270">
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/Project-3.jpg" alt="Ресторан Seafood" width="270">
-                    <h3>Ресторан Seafood</h3>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/Project-4.jpg" alt="Проект Prime" width="270">
-                    <h3>Проект Prime</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/Project-5.jpg" alt="Проект Boxes" width="270">
-                    <h3>Проект Boxes</h3>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/Project-6.jpg" alt="Inspiration has no Borders" width="270">
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/Project-7.jpg" alt="Издание Limited Edition" width="270">
-                    <h3>Издание Limited Edition</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/Project-8.jpg" alt="Проект LAB" width="270">
-                    <h3>Проект LAB</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/Project-9.jpg" alt="Growing Businessк" width="270">
-                    <h3>Growing Business</h3>
-                    <p>Приложение</p>
-                </li>  
-            </ul>
+            <div>
+                <h2>Портфолио</h2><!--приховати в сss-->
+                <ul>
+                    <li>
+                        <img src="./images/project-1.jpg" alt="Технокряк" width="270">
+                        <h3>Технокряк</h3>
+                        <p>Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./images/Project-2.jpg" alt="Постер New Orlean vs Golden Star" width="270">
+                        <h3>Постер New Orlean vs Golden Star</h3>
+                        <p>Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./images/Project-3.jpg" alt="Ресторан Seafood" width="270">
+                        <h3>Ресторан Seafood</h3>
+                        <p>Приложение</p>
+                    </li>
+                    <li>
+                        <img src="./images/Project-4.jpg" alt="Проект Prime" width="270">
+                        <h3>Проект Prime</h3>
+                        <p>Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./images/Project-5.jpg" alt="Проект Boxes" width="270">
+                        <h3>Проект Boxes</h3>
+                        <p>Приложение</p>
+                    </li>
+                    <li>
+                        <img src="./images/Project-6.jpg" alt="Inspiration has no Borders" width="270">
+                        <h3>Inspiration has no Borders</h3>
+                        <p>Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./images/Project-7.jpg" alt="Издание Limited Edition" width="270">
+                        <h3>Издание Limited Edition</h3>
+                        <p>Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./images/Project-8.jpg" alt="Проект LAB" width="270">
+                        <h3>Проект LAB</h3>
+                        <p>Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./images/Project-9.jpg" alt="Growing Businessк" width="270">
+                        <h3>Growing Business</h3>
+                        <p>Приложение</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-
     </main>
 
     <!-- Футер -->
     <footer>
-        <a href="">WebStudio</a>
-        <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/6p5DjgwjbaoBaa989" target="_blank"
-                        rel="noopener noreferrer nofollow">г.Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div>
+            <a href="">WebStudio</a>
+            <address>
+                <ul>
+                    <li><a href="https://goo.gl/maps/6p5DjgwjbaoBaa989" target="_blank" rel="noopener noreferrer nofollow">г.Киев,
+                            пр-т Леси Украинки, 26</a></li>
+                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
+        
     </footer>
     
 </body>
