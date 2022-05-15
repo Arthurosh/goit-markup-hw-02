@@ -23,8 +23,21 @@ body {
 	color: var(--primary-text-color);
 	font-family: Roboto, sans-serif;
 	font-size: 14px;
-	line-height: 1.14;
 	letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .list {
@@ -47,6 +60,7 @@ body {
 	color: var(--title-text-color);
 	text-decoration: none;
 	font-weight: 500;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 
@@ -70,6 +84,7 @@ body {
 	color: var(--primary-text-color);
 	text-decoration: none;
 	font-weight: 500;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 
@@ -111,6 +126,7 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
+	letter-spacing: 0.03em;
 }
 .button.secondary {
 	color: var(--title-text-color);
@@ -135,6 +151,7 @@ body {
 .features .features-title {
 	color: var(--title-text-color);
 	font-weight: 700;
+	line-height: 1.14;
 	text-transform: uppercase;
 }
 
@@ -173,6 +190,7 @@ body {
 	color: var(--white-color);
 	text-decoration: none;
 	font-style: normal;
+
 	line-height: 1.71;
 }
 
@@ -183,6 +201,7 @@ body {
 /* Portfolio */
 .portfolio .link {
 	text-decoration: none;
+	color: inherit;
 }
 
 .portfolio .title {
@@ -193,7 +212,6 @@ body {
 	letter-spacing: 0.06em;
 }
 .portfolio .text {
-	color: var(--primary-text-color);
 	font-size: 16px;
 	line-height: 1.87;
 }
